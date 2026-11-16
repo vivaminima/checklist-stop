@@ -1,0 +1,16 @@
+{
+  "name": "checklist-stop",
+  "description": "A Stop hook for Claude Code: the session cannot finish while your Markdown checklist still has an open item.",
+  "author": {
+    "name": "Vivaminima",
+    "url": "https://github.com/vivaminima"
+  },
+  "homepage": "https://vivastory4.gumroad.com/l/checklist-stop-pro",
+  "repository": "https://github.com/vivaminima/checklist-stop",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-hooks",
+    "developer-tools"
+  ]
+}
