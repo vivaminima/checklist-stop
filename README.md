@@ -3,6 +3,8 @@
 *Part of the [Vivaminima tools](https://github.com/vivaminima) for Claude Code users.*
 
 <img src="https://raw.githubusercontent.com/vivaminima/vivaminima/main/img/run/checklist-stop.png" width="760" alt="checklist-stop: real output of the free version on a made-up sample">
+
+**Install in Claude Code:** `/plugin install checklist-stop --marketplace vivaminima/vivaminima`
 Unlike Claude Code's built-in Tasks, this enforces completion against your existing Markdown checklist at Stop time.
 
 A Claude Code **Stop hook** in one Python file. When Claude tries to finish while your checklist still has a `- [ ]` item, the hook blocks the stop and hands the next open item back, with the file path and line number.
